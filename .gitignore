@@ -1,0 +1,42 @@
+# --- Secrets & local config (never commit) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# --- Personal / AI assistant files ---
+CLAUDE.local.md
+.claude/settings.local.json
+
+# --- Terraform ---
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+*.tfplan
+
+# --- Go ---
+/apps/*/bin/
+*.test
+*.out
+coverage.*
+
+# --- Node / Next.js / Payload ---
+node_modules/
+.next/
+out/
+.turbo/
+*.tsbuildinfo
+next-env.d.ts
+/apps/web/media/
+playwright-report/
+test-results/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp

@@ -1,0 +1,5 @@
+# Use LF in the repo so shell scripts and Dockerfiles work inside Linux containers
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.webp binary
